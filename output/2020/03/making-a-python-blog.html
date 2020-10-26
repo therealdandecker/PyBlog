@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>Making a Python Blog</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+<link href="https://dandecker.us/2020/03/making-a-python-blog.html" rel="canonical" />
+  <!-- Feed -->
+
+  <link href="https://dandecker.us/theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="https://dandecker.us/theme/css/code_blocks/github.css" rel="stylesheet">
+
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+    <meta name="description" content="It has been an adventure. I am not ashamed to admit that in the process of trying to create this blog, I definitely had to do a hard...">
+
+    <meta name="author" content="Dan">
+
+    <meta name="tags" content="Python">
+    <meta name="tags" content="Blog">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Dan Decker"/>
+<meta property="og:title" content="Making a Python Blog"/>
+<meta property="og:description" content="It has been an adventure. I am not ashamed to admit that in the process of trying to create this blog, I definitely had to do a hard..."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://dandecker.us/2020/03/making-a-python-blog.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-03-31 21:40:00-04:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://dandecker.us/author/dan">
+<meta property="article:section" content="Data"/>
+<meta property="article:tag" content="Python"/>
+<meta property="article:tag" content="Blog"/>
+<meta property="og:image" content="https://dandecker.us/theme/images/post-bg.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "Making a Python Blog",
+  "headline": "Making a Python Blog",
+  "datePublished": "2020-03-31 21:40:00-04:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "Dan",
+    "url": "https://dandecker.us/author/dan"
+  },
+  "image": "https://dandecker.us/theme/images/post-bg.jpg",
+  "url": "https://dandecker.us/2020/03/making-a-python-blog.html",
+  "description": "It has been an adventure. I am not ashamed to admit that in the process of trying to create this blog, I definitely had to do a hard..."
+}
+</script>
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+          <li><a href="https://www.anaconda.com/distribution/" role="presentation">Anaconda Python</a></li>
+          <li><a href="https://github.com/therealdandecker" role="presentation">GitHub</a></li>
+          <li><a href="http://jinja.pocoo.org/" role="presentation">Jinja2</a></li>
+          <li><a href="https://www.linkedin.com/in/dan-d-789a1ab/" role="presentation">LinkedIn</a></li>
+          <li><a href="https://dandecker.us/pdfs/Resume.pdf" role="presentation">Resume</a></li>
+          <li><a href="https://public.tableau.com/profile/dan.decker#!/" role="presentation">Tableau Public</a></li>
+
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" >
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="https://dandecker.us/" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">Making a Python Blog</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="https://dandecker.us/author/dan">Dan</a>
+            | <time datetime="Tue 31 March 2020">Tue 31 March 2020</time>
+        </span>
+        <!-- TODO : Modified check -->
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>It has been an adventure.  I am not ashamed to admit that in the process of trying to create this blog, I definitely had to do a hard delete of my entire git repo before rebuilding everything and moving on.  Finally got there and it is great.</p>
+<p>For those not in the know, you'll also find about a million and a half ways to run Python on a Mac and most of them are downright terrible.  My personal preference at this point is just to install Anaconda and run the terminal from the Anaconda virtual env, but to each their own.</p>
+<p>I thought it would be cool to create a blog using Python instead of Wordpress or something else.  I set out to do so and now it is fully published on the net and ready to be seen.</p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=Making a Python Blog&amp;url=https://dandecker.us/2020/03/making-a-python-blog.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://dandecker.us/2020/03/making-a-python-blog.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=https://dandecker.us/2020/03/making-a-python-blog.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="https://dandecker.us/tag/python">Python</a><a href="https://dandecker.us/tag/blog">Blog</a>                </aside>
+
+                <div class="clear"></div>
+
+                <aside class="post-author">
+
+
+                        <figure class="post-author-avatar">
+                            <img src="https://dandecker.us/theme/images/Data.png" alt="Dan" />
+                        </figure>
+                    <div class="post-author-bio">
+                        <h4 class="post-author-name"><a href="https://dandecker.us/author/dan">Dan</a></h4>
+                            <p class="post-author-about">Dan Decker is not an award winning novelist, but they will let anyone with Python skills make a website these days.</p>
+                            <span class="post-author-location"><i class="ic ic-location"></i> USA</span>
+                            <span class="post-author-website"><a href="https://dandecker.us"><i class="ic ic-link"></i> Website</a></span>
+                        <!-- Social linkes in alphabet order. -->
+                            <span class="post-author-github"><a target="_blank" href="https://github.com/https://github.com/therealdandecker"><i class="ic ic-link"></i> GitHub</a></span>
+                            <span class="post-author-linkedin"><a target="_blank" href="https://www.linkedin.com/in/https://www.linkedin.com/in/dan-d-789a1ab/"><i class="ic ic-link"></i> LinkedIn</a></span>
+                    </div>
+                    <div class="clear"></div>
+                </aside>
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-next" href="https://dandecker.us/2020/04/a-day-in-the-life.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-left"></i>
+                                <h2 class="post-nav-title">A Day in the Life</h2>
+                            <p class="post-nav-excerpt">Updating and customizing was pretty easy, just required following all the...</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://dandecker.us/theme/js/script.js"></script>
+
+</body>
+</html>

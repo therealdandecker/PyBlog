@@ -11,15 +11,15 @@ from jinja2.ext import with_
 from jinja2.ext import do
 
 
-AUTHOR = 'Dan'
+AUTHOR = 'Dan Decker'
 SITENAME = 'Dan Decker'
 SITESUBTITLE = 'A Semi-Pro Blog'
-SITEURL = 'https://dandecker.us'
+SITEURL = 'https://therealdandecker.github.io'
 
 PATH = 'content'
 PAGE_PATHS = ['Pages']
 ARTICLE_PATHS= ['Articles']
-OUTPUT_PATH = 'output'
+OUTPUT_PATH = r'C:\Users\ddecker\Documents\GitHub\therealdandecker.github.io'
 
 TIMEZONE = 'America/New_York'
 
@@ -33,13 +33,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-MENUITEMS = ( #('Pelican', 'http://getpelican.com/'),
-              #('Python.org', 'http://python.org/'),
-              ('Anaconda Python', 'https://www.anaconda.com/distribution/'),
+MENUITEMS = ( ('Pelican', 'http://getpelican.com/'),
+              ('Python.org', 'http://python.org/'),
+              #('Anaconda Python', 'https://www.anaconda.com/distribution/'),
               ('GitHub', 'https://github.com/therealdandecker'),
               ('Jinja2', 'http://jinja.pocoo.org/'),
               ('LinkedIn', 'https://www.linkedin.com/in/dan-d-789a1ab/'),
-              ('Resume', 'https://dandecker.us/pdfs/Resume.pdf'),
+              ('Resume', 'https://therealdandecker.github.io/pdfs/Resume.pdf'),
               ('Tableau Public','https://public.tableau.com/profile/dan.decker#!/')
           )
 
@@ -53,7 +53,7 @@ PAGINATION_PATTERNS = (
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['assets','pdfs']
+STATIC_PATHS = ['pdfs']
 #ARTICLE_PATHS = ['content']
 PLUGIN_PATHS = [
   'pelican-plugins'
@@ -115,7 +115,7 @@ AUTHORS_SAVE_AS = 'authors.html'
 AUTHORS_BIO = {
   "dan": {
     "name": "Dan",
-    "website": "https://dandecker.us",
+    "website": "https://therealdandecker.github.io",
     "linkedin": "https://www.linkedin.com/in/dan-d-789a1ab/",
     "github": "https://github.com/therealdandecker",
     "location": "USA",
