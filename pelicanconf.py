@@ -19,8 +19,7 @@ SITEURL = 'https://therealdandecker.github.io'
 PATH = 'content'
 PAGE_PATHS = ['Pages']
 ARTICLE_PATHS= ['Articles']
-OUTPUT_PATH = r'C:\Users\ddecker\Documents\GitHub\therealdandecker.github.io'
-
+OUTPUT_PATH = r'/home/dan/Documents/GitHub/therealdandecker.github.io'
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
@@ -33,11 +32,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-MENUITEMS = ( ('Pelican', 'http://getpelican.com/'),
+MENUITEMS = ( #('Pelican', 'http://getpelican.com/'),
               ('Python.org', 'http://python.org/'),
               #('Anaconda Python', 'https://www.anaconda.com/distribution/'),
               ('GitHub', 'https://github.com/therealdandecker'),
-              ('Jinja2', 'http://jinja.pocoo.org/'),
+              #('Jinja2', 'http://jinja.pocoo.org/'),
               ('LinkedIn', 'https://www.linkedin.com/in/dan-d-789a1ab/'),
               ('Resume', 'https://therealdandecker.github.io/pdfs/Resume.pdf'),
               ('Tableau Public','https://public.tableau.com/profile/dan.decker#!/')
