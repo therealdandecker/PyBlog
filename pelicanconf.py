@@ -116,7 +116,7 @@ AUTHORS_BIO = {
     "name": "Dan",
     "website": "https://therealdandecker.github.io",
     "linkedin": "https://www.linkedin.com/in/dan-d-789a1ab/",
-    "github": "https://github.com/therealdandecker",
+    "github": "/therealdandecker",
     "location": "USA",
     "cover": "theme/images/about-bg.jpg",
     "image": "theme/images/Data.png",
