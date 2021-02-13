@@ -115,9 +115,9 @@ AUTHORS_BIO = {
   "dan": {
     "name": "Dan",
     "website": "https://therealdandecker.github.io",
-    "linkedin": "https://www.linkedin.com/in/dan-d-789a1ab/",
-    "github": "/therealdandecker",
-    "location": "USA",
+    "linkedin": "dan-d-789a1ab/",
+    "github": "therealdandecker",
+    "location": "Somewhere in USA",
     "cover": "theme/images/about-bg.jpg",
     "image": "theme/images/Data.png",
     "bio": "Dan Decker is not an award winning novelist, but they will let anyone with Python skills make a website these days."
